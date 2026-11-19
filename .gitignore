@@ -1,0 +1,25 @@
+#helyi kornyezet
+.env
+.env.*
+!.env.example
+
+#fuggoseg
+backend/vendor/
+frontend/node_modules/
+
+#build kimenet
+frontend/dist/
+
+#laravel futas közbeni fajlok
+backend/storage/*.key
+backend/storage/logs/*.log
+backend/bootstrap/cache/*.php
+backend/public/hot
+backend/public/storage
+
+#szerkesztö filejai
+.idiea/
+.vscode/
+.Ds_Store
+Thumbs.db
+*.log
